@@ -3,7 +3,7 @@ var fs = require('fs');
 var helenus = require('helenus');
 var actions = require('./actions');
 var pool = new helenus.ConnectionPool({
-	hosts      : ['192.168.1.214:9160'],
+	hosts      : ['dse-0-node.datastax-dse.autoip.dcos.thisdcos.directory:9160'],
 	keyspace   : 'ksfabio',
 	timeout    : 3000
 });
